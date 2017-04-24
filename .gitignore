@@ -1,12 +1,51 @@
-*.class
+/config/*
+!/config/formats.js
+/logs/*
+/node_modules
+/eslint-cache
+/chat-plugins/private.js
+npm-debug.log
+.eslintcache
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# boilerplate #
+###############
 
-# Package Files #
-*.jar
-*.war
-*.ear
+.DS_Store
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# editor temp files
+*~
+.idea/
+
+tmp/**/*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.pyc
+*.pyo
+.installed.cfg
+
+downloads
+build
+dist
+
+# egg related
+develop-eggs
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+src/*.egg-info
+eggs
+fake-eggs
+
+# django
+local_settings.py
+
+# SCM
+.hg
+.bzr
+.svn
+
+pip-log.txt
+
